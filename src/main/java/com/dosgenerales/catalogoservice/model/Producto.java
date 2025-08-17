@@ -24,4 +24,7 @@ public class Producto {
     private Integer stock;
 
     private String categoria;
+
+    @Column(name = "image_url")
+    private String imageUrl;
 }
