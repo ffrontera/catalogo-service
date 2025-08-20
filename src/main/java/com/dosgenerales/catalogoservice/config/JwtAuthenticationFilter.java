@@ -21,7 +21,7 @@ import java.util.Collections;
 @Component
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
-    @Value("${jwt.decret.key}")
+    @Value("${jwt.secret.key}")
     private String secretKey;
 
     @Override
