@@ -1,8 +1,10 @@
 package com.dosgenerales.catalogoservice.dto;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 public class ProductoResponseDTO {
     private Long id;
     private String nombre;
